@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" 	  content="yes">
+		
+		<title>Test Chart</title>
+
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-58065516-1', 'auto');
+		  ga('send', 'pageview');
+		</script>		
+		
+	</head>
+	
+	<body onload="Boot()">
+		
+		<img id="toggle" src="style/cog.svg" class="cog" onclick="ToggleSettings()" />
+		
+		<div id="console">
+		
+			<form id="settings" >
+		
+				<input type="hidden" name="rowIndex" value="6">
+				<!-- input type="hidden" name="otherRowIndex" value="5"-->
+				<!--input type="hidden" name="hide" value="true"
+				
+				step="0.1"
+				
+				pattern="\d*" 
+				-->
+				
+				<table>
+					<tr>
+						<td>
+							<h2>CALIBRATION</h2>
+							<input type="number"  id="lineSize" name="lineSize" step="0.1" min="1" max="10" value="2.5" style="width:5em" "size="5"  ><br>
+							<select name="lineUnits" value="cm" onchange="WriteURL()">
+								<option value="cm" >cm</option>
+								<option value="inches" >inches</option>
+								
+							</select>
+							<br/>
+							<i>Measure this line</i><br>
+							<img src="assets/line.svg" width="100" height="5" border="1"><br>
+						</td>
+	
+						<td>
+	
+							<h2>MONITOR DISTANCE</h2>
+							<input type="number" id="distanceSize"  name="distance" value="6" min="0.1" max="30"	 style="width:5em"   size="5" step="0.1"  onkeyup="WriteURL()" onpaste="WriteURL()" oninput="WriteURL()"><br>
+							<select name="distanceUnits" value="meters" onchange="WriteURL()">
+								<option value="meters">meters</option>
+								<option value="feet" >feet</option>
+								
+							</select>
+						</td>
+					
+						<td>
+							<h2>CHART TYPE</h2>
+							<select id="chartType" name="chartType" value="0" onchange="WriteURL()">
+							</select>
+						</td>
+						
+						<td>
+							<h2 class="uiOptoType">OPTOTYPE</h2>
+							
+							<select  class="uiOptoType" id="optoType" name="optoType" value="0" onchange="WriteURL()">
+							</select>			
+						</td>
+				
+						<td>
+				
+							<h2 class="uiDisplayType">VIEWING PREFERENCE</h2>
+							<select name="displayType" value="3" onchange="WriteURL()" class="uiDisplayType">
+								<option value="0">[q] Single</option>
+								<option value="1">[w] Line</option>
+								<option value="2">[e] Five Line</option>
+								<option value="3">[r] Fifteen Line</option>
+							</select>
+						</td>
+				
+						<td>
+							<h2>DISPLAY</h2>
+							
+							<a onclick="document.location.href = 'help.html'" class="button buttonHelp"></a>
+							
+							<a onclick="Refresh()" class="button buttonHide"></a>
+							<a id="buttonLarger" onclick="UserUp()" class="button buttonLarger uiMultipleRow"></a>
+							<a id="buttonSmaller" onclick="UserDown()" class="button buttonSmaller uiMultipleRow"></a>
+							<br/>
+							<input class="check" type="checkbox" name="mirror"   onchange="WriteURL()">[m] Mirror<br/>
+							<input class="check" type="checkbox" name="animate"  onchange="WriteURL()">[a] Animate
+							<input id="checkCrowd"  class="check" type="checkbox" name="crowd"    onchange="WriteURL()"><span id="uiCheckCrowd">[b] Crowd Bars</span><br/>
+							
+							<input type="radio" name="nearFar" value="near" onclick="WriteURL()">Near</input>
+							<input type="radio" name="nearFar" value="far"  onclick="WriteURL()" checked>Far</input>
+						</td>
+						
+						
+						
+						<td>
+							<h2 class="uiSettings">SETTINGS</h2>
+							
+							<span class="setting col1">Color 1</span>
+							<input type="color" class="setting col1" name="col1" value="#dedede" onchange="WriteURL()" >
+							
+							
+							<span class="setting col2">Color 2</span>
+							<input type="color" class="setting col1" name="col2" value="#f10708" onchange="WriteURL()" >
+							<br/>
+							
+							<span class="setting col3">Color 3</span>
+							<input type="color" class="setting col1" name="col3" value="#20e4fa" onchange="WriteURL()" >
+							
+							
+							<span class="setting col4">Color 4</span>
+							<input type="color" class="setting col1" name="col4" value="#000000" onchange="WriteURL()" >
+							<br/>
+							
+							<span class="setting mode3d">3D</span>
+							
+							<select name="mode3d" value="0" onchange="WriteURL()" class="setting mode3d">
+								<option value="0">Interlaced</option>
+								<option value="1">Anaglyph</option>
+							</select>
+							
+							
+						</td>
+						
+						<td>
+							<a href="http://www.openoptometry.com"><img class="logo" src="style/opensq.svg" width="100" /></a>
+						</td> 
+						
+					</tr>
+				</table>
+				
+
+			</form>
+			
+			
+				
+		</div>
+			
+		<div id="displayFrame" >
+		</div>
+		
+		<!--script type="text/javascript" src="scripts/jquery.js"></script-->
+		<script type="text/javascript" src="scripts/jquery-1.11.2.min.js"></script>
+		<!--script type="text/javascript" src="scripts/jquery.ba-hashchange.min.js"></script-->
+		<!--script type="text/javascript" src="scripts/jquery.touchwipe.min.js"></script-->
+		<!-- >script type="text/javascript" src="scripts/jquery.touchSwipe.min.js"></script-->
+		<!-- >script type="text/javascript" src="scripts/jquery.ui.ipad.js"></script-->
+		
+		<script type="text/javascript" src="scripts/hammer.min.js"></script>
+		
+		<script type="text/javascript" src="scripts/seedrandom.min.js"></script>
+		
+		<script type="text/javascript" src="scripts/chartType.js"></script>
+		<script type="text/javascript" src="scripts/chartTypeSingle.js"></script>
+		<script type="text/javascript" src="scripts/chartTypeRows.js"></script>
+		<script type="text/javascript" src="scripts/chartTypeModify.js"></script>
+		<script type="text/javascript" src="scripts/chartTypePosition.js"></script>
+		
+		<script type="text/javascript" src="scripts/chartDiagrams.js"></script>
+		<script type="text/javascript" src="scripts/chartMisc.js"></script>
+		<script type="text/javascript" src="scripts/chartCartoons.js"></script>
+		<script type="text/javascript" src="scripts/chartText.js"></script>
+		<script type="text/javascript" src="scripts/chartDuochrome.js"></script>
+		<script type="text/javascript" src="scripts/chartAstigmatism.js"></script>
+		<script type="text/javascript" src="scripts/chartShapes.js"></script>
+		<script type="text/javascript" src="scripts/chartGradients.js"></script>
+		<script type="text/javascript" src="scripts/chartGreycards.js"></script>
+		<script type="text/javascript" src="scripts/chartAssoc.js"></script>
+		<script type="text/javascript" src="scripts/chartAssocSplit.js"></script>
+		<script type="text/javascript" src="scripts/chartMaddox.js"></script>
+		<script type="text/javascript" src="scripts/chartNumberPlate.js"></script>
+		<script type="text/javascript" src="scripts/chartSnellen.js"></script>
+		<script type="text/javascript" src="scripts/chartContrast.js"></script>
+		
+		<script type="text/javascript" src="scripts/init.js"></script>	
+		
+		<!--  what options for viewing the snellen chart/ -->
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+

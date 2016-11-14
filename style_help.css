@@ -1,0 +1,129 @@
+
+head
+{
+background-color:#b0e0e6;
+}
+
+body
+{
+background-color: #359;
+height: 2000px;
+}
+
+div#wrapper
+{
+margin-left: auto;
+background-color: white;
+margin-right: auto;
+margin: 0 auto;
+height: 2000px;
+width: 1250px;
+}
+
+img#logo
+{
+float: left;
+width: 225px; 
+height:190px;
+}
+
+img#screenshot
+{
+align: right; 
+width: 350px;
+}
+
+ul#list-nav 
+{
+position:relative;
+font-family:"Agency FB", "Arial", "Helvetica", "sansserif";
+list-style:none;
+margin-left:auto;
+margin-right: auto;
+padding-top:10px;
+width:1250px;
+}
+
+body#home a#homenav,
+body#Services a#Servicesnav,
+body#About a#Aboutnav,
+body#Gallery a#Gallerynav,
+body#contact a#connav 
+{
+color: #blue;
+background: #359;
+}
+
+ul#list-nav li 
+{
+display:inline;
+}
+
+ul#list-nav a 
+{
+display:inline-block;
+padding:5px;
+text-decoration:none;
+padding:10px 50px;
+background:#0844ce;
+color:#eee;
+text-align:center;
+border-left:1px solid #111;
+margin-left: auto;
+margin-right: auto;
+margin: 0 auto;
+}
+
+ul#list-nav li a:hover 
+{
+background:#348;
+color:#000
+}
+
+article 
+{
+float:left;
+font-family:sans-serif;
+width: 800px;
+border-top: 5px;
+border-top-color:black;
+color: grey;
+text-align: justify;
+font-size:1.2em; 
+margin-left: auto;
+margin-right: auto;
+}
+
+div#services 
+{
+display: inline-table;
+font-family:sans-serif;
+width: 700px;
+border-top: 5px;
+border-top-color:black;
+color: grey;
+text-align: justify;
+font-size:1.2em; 
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+}
+
+th,td
+{
+padding:15px;
+}
+
+
+div#icons
+{
+margin-left: 355px;
+margin-right: auto;
+}
+
+footer 
+{
+font-family:"Agency FB", "Arial", "Helvetica", "sansserif";
+text-align: center;
+color: gray; 
+}

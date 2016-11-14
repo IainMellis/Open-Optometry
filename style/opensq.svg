@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="498.9407"
+   height="488.17795"
+   id="svg3126"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 2">
+  <defs
+     id="defs3128">
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3833"
+       id="radialGradient4002"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.5150643,-1.0894,1.1645306,0.51488158,-591.57294,479.11076)"
+       cx="192.37277"
+       cy="618.43488"
+       fx="192.37277"
+       fy="618.43488"
+       r="198.57812" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3833">
+      <stop
+         style="stop-color:#000080;stop-opacity:1;"
+         offset="0"
+         id="stop3835" />
+      <stop
+         style="stop-color:#0066ff;stop-opacity:1"
+         offset="1"
+         id="stop3837" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3803"
+       id="linearGradient3999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.71576233,0,0,0.69216134,1.9573356,183.01286)"
+       x1="299.62134"
+       y1="465.23651"
+       x2="301.82443"
+       y2="785.78729" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3803">
+      <stop
+         style="stop-color:#000080;stop-opacity:1;"
+         offset="0"
+         id="stop3805" />
+      <stop
+         style="stop-color:#000080;stop-opacity:0;"
+         offset="1"
+         id="stop3807" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       id="filter3794"
+       x="-0.39857686"
+       width="1.7971537"
+       y="-0.24208044"
+       height="1.4841609"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="18.110893"
+         id="feGaussianBlur3796" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3880"
+       id="radialGradient3995"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-2.611734e-7,-0.3678265,2.6628483,-1.5688395e-6,-2063.7425,861.03241)"
+       cx="364.6106"
+       cy="869.00195"
+       fx="364.6106"
+       fy="869.00195"
+       r="87.782455" />
+    <linearGradient
+       id="linearGradient3880"
+       inkscape:collect="always">
+      <stop
+         id="stop3882"
+         offset="0"
+         style="stop-color:#0e1c98;stop-opacity:1;" />
+      <stop
+         id="stop3884"
+         offset="1"
+         style="stop-color:#004cdf;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3880"
+       id="radialGradient3077"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-2.611734e-7,-0.3678265,2.6628483,-1.5688395e-6,-2063.7425,861.03241)"
+       cx="364.6106"
+       cy="869.00195"
+       fx="364.6106"
+       fy="869.00195"
+       r="87.782455" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3870"
+       id="radialGradient3991"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.2268931e-7,-0.14374529,1.0406316,-7.2121406e-7,-780.10903,779.32938)"
+       cx="364.61066"
+       cy="990.15527"
+       fx="364.61069"
+       fy="990.15527"
+       r="224.6245" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3870">
+      <stop
+         style="stop-color:#0e1c98;stop-opacity:1;"
+         offset="0"
+         id="stop3872" />
+      <stop
+         style="stop-color:#004cdf;stop-opacity:1"
+         offset="1"
+         id="stop3874" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3870"
+       id="radialGradient3089"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.2268931e-7,-0.14374529,1.0406316,-7.2121406e-7,-780.10903,779.32938)"
+       cx="364.61066"
+       cy="990.15527"
+       fx="364.61069"
+       fy="990.15527"
+       r="224.6245" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3880"
+       id="radialGradient3974"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.353493e-7,-0.1906207,1.3799822,-8.1302819e-7,-973.48396,823.28206)"
+       cx="364.6106"
+       cy="869.00195"
+       fx="364.6106"
+       fy="869.00195"
+       r="87.782455" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3880"
+       id="radialGradient3104"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.353493e-7,-0.1906207,1.3799822,-8.1302819e-7,-973.48396,823.28206)"
+       cx="364.6106"
+       cy="869.00195"
+       fx="364.6106"
+       fy="869.00195"
+       r="87.782455" />
+    <radialGradient
+       r="87.782455"
+       fy="869.00195"
+       fx="364.6106"
+       cy="869.00195"
+       cx="364.6106"
+       gradientTransform="matrix(-1.353493e-7,-0.1906207,1.3799822,-8.1302819e-7,-973.48396,823.28206)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3124"
+       xlink:href="#linearGradient3880"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="264.47035"
+     inkscape:cy="15.517555"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4006"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1317"
+     inkscape:window-height="744"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3131">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-110.52965,-59.701779)">
+    <g
+       transform="translate(104.60758,-254.14044)"
+       id="g4006">
+      <!--rect
+         style="opacity:0.64197530999999997;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.55860495999999982;stroke-miterlimit:4;stroke-opacity:0.64313724999999999;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3936"
+         width="495.38211"
+         height="484.61935"
+         x="7.7013688"
+         y="315.62152"
+         ry="1.7292892"
+         inkscape:export-filename="/home/iain/gxeshare/Share/Graphic_Design/openoptometry/OOsq2.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" / -->
+      <path
+         inkscape:connector-curvature="0"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 256.36611,365.13864 c -78.4962,0 -142.14592,60.20435 -142.14592,134.47397 0,61.52783 43.67812,113.40178 103.29345,129.39091 l 0,-1.2978 c 0.197,0.0883 0.41192,0.15141 0.64866,0.15141 0,0 26.46084,-15.05715 26.46084,-15.7683 0,0 1.58646,-89.48348 0.78286,-89.48348 l -26.08059,-17.06611 74.43928,0 c 0.8036,0 1.4539,0.62885 1.4539,1.40596 l 0,122.05832 c 59.60485,-15.99551 103.27108,-67.87011 103.27108,-129.39091 0,-74.26962 -63.62736,-134.47397 -142.12356,-134.47397 z"
+         id="path3811"
+         inkscape:export-filename="/home/iain/gxeshare/Share/Graphic_Design/openoptometry/OOsq2.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         id="path2985"
+         d="m 253.50306,362.37 c -78.4962,0 -142.14592,60.20435 -142.14592,134.47397 0,61.52783 43.67811,113.40177 103.29345,129.39091 l 0,-1.29781 c 0.19701,0.0883 0.41192,0.15141 0.64866,0.15141 0,0 26.46084,-15.05715 26.46084,-15.76829 0,0 1.58647,-89.48349 0.78286,-89.48349 l -26.08059,-17.0661 74.43928,0 c 0.80361,0 1.4539,0.62885 1.4539,1.40595 l 0,122.05833 C 351.9604,610.23936 395.62662,558.36476 395.62662,496.84397 395.62662,422.57435 331.99926,362.37 253.50306,362.37 z"
+         style="color:#000000;fill:url(#radialGradient4002);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/iain/gxeshare/Share/Graphic_Design/openoptometry/OOsq2.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         inkscape:connector-curvature="0"
+         style="color:#000000;fill:url(#linearGradient3999);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 253.50306,700.62645 c -78.4962,0 -142.14592,-16.68739 -142.14592,-37.2734 0,-17.05423 43.67811,-31.43261 103.29345,-35.86447 l 0,0.35972 c 0.19701,-0.0244 0.41192,-0.042 0.64866,-0.042 0,0 26.46084,4.17352 26.46084,4.37065 0,0 1.58647,24.80296 0.78286,24.80296 l -26.08059,4.73037 74.43928,0 c 0.80361,0 1.4539,-0.1743 1.4539,-0.3897 l 0,-33.83204 c 59.60486,4.4336 103.27108,18.81216 103.27108,35.86446 0,20.586 -63.62736,37.27339 -142.12356,37.27339 z"
+         id="path3801"
+         inkscape:export-filename="/home/iain/gxeshare/Share/Graphic_Design/openoptometry/OOsq2.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         transform="matrix(0.75599217,0,0,0.89244105,-13.603539,75.29556)"
+         ry="2.0265708"
+         y="461.93188"
+         x="297.41824"
+         height="179.55249"
+         width="109.05336"
+         id="rect3760"
+         style="opacity:0.64197531;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter3794);enable-background:accumulate"
+         inkscape:export-filename="/home/iain/gxeshare/Share/Graphic_Design/openoptometry/OOsq2.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-size:48.36656189px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#radialGradient3995);fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+         x="18.381653"
+         y="728.37952"
+         id="text3862"
+         sodipodi:linespacing="125%"
+         transform="scale(0.97781496,1.0226884)"
+         inkscape:export-filename="/home/iain/gxeshare/Share/Graphic_Design/openoptometry/OOsq2.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan3864"
+           x="18.381653"
+           y="728.37952"
+           style="fill:url(#radialGradient3995);fill-opacity:1">OPEN</tspan></text>
+      <text
+         transform="scale(0.97781496,1.0226884)"
+         sodipodi:linespacing="125%"
+         id="text3866"
+         y="728.37952"
+         x="160.16904"
+         style="font-size:48.36656189px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#radialGradient3991);fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+         xml:space="preserve"
+         inkscape:export-filename="/home/iain/gxeshare/Share/Graphic_Design/openoptometry/OOsq2.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           y="728.37952"
+           x="160.16904"
+           id="tspan3868"
+           sodipodi:role="line"
+           style="fill:url(#radialGradient3991);fill-opacity:1">OPTOMETRY</tspan></text>
+      <text
+         transform="scale(0.97781496,1.0226884)"
+         sodipodi:linespacing="125%"
+         id="text3928"
+         y="754.53662"
+         x="105.54636"
+         style="font-size:25.06526375px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#radialGradient3124);fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+         xml:space="preserve"
+         inkscape:export-filename="/home/iain/gxeshare/Share/Graphic_Design/openoptometry/OOsq2.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           style="fill:url(#radialGradient3124);fill-opacity:1"
+           y="754.53662"
+           x="105.54636"
+           id="tspan3930"
+           sodipodi:role="line">www.openoptometry.com</tspan></text>
+    </g>
+  </g>
+</svg>
