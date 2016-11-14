@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4723"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   viewBox="0 0 100 100"
+   width="100"
+   height="100"
+   sodipodi:docname="apple.svg">
+  <metadata
+     id="metadata4729">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4727" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1317"
+     inkscape:window-height="744"
+     id="namedview4725"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="130"
+     inkscape:cy="210"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4723" />
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TSS Symbols;-inkscape-font-specification:TSS Symbols Medium"
+     x="-89.830505"
+     y="36.440678"
+     id="text4733"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="-89.830505"
+       y="36.440678"
+       id="tspan4737" /></text>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="rect4808"
+     width="100"
+     height="100"
+     x="0"
+     y="-0.023131967"
+     ry="0" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path4774"
+     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TSS Symbols;-inkscape-font-specification:TSS Symbols Medium"
+     d="m 55.066701,6.104031 -0.54598,0.955495 -0.500508,5.368905 c -0.242717,4.368031 -0.07594,8.083805 0.500508,11.147348 24.114553,-7.401149 37.597524,0.546074 40.448913,23.841668 1.698534,25.691973 -9.524618,41.889727 -33.669526,48.593283 -6.218288,0.57634 -11.754037,-0.07571 -16.607246,-1.956458 -5.217308,1.243639 -10.055398,1.243639 -14.514282,0 C 14.466121,82.740103 5.8212398,68.802144 4.2439603,52.240372 7.2165569,28.034779 20.866348,18.646766 45.193346,24.076263 L 45.73935,20.663821 C 45.921289,14.809644 45.572553,9.956389 44.692862,6.104031 l 2.047456,-1.000991 8.326383,1.000991 m 12.421318,22.840677 -2.047456,0.454987 -1.546972,1.000992 -4.185951,0.955471 -3.594451,1.455979 -6.779388,1.455979 C 46.725106,33.540197 44.480476,33.221698 42.599887,33.312645 32.195682,29.217756 23.73281,31.159077 17.211259,39.136561 10.689684,59.429297 16.741082,75.141733 35.3655,86.273869 l 1.546972,0 c 3.184913,-0.151655 6.294034,-0.318475 9.327362,-0.500484 l 6.733915,1.000992 c 1.941227,0.788651 4.019038,1.107149 6.233407,0.955471 C 75.404841,82.542952 84.216519,72.502754 85.64226,57.6093 88.038475,44.566198 83.898044,35.011341 73.220942,28.944708 l -5.732923,0" />
+</svg>
